@@ -1,0 +1,24 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $.ajax({
+            url: "https://djblogsfuncappwithswagger.azurewebsites.net/api/Function1?name=DJ Blogs",
+            type: "GET",
+            beforeSend: function (xhr) { xhr.setRequestHeader('x-functions-key', 'Yq9KOCBQ4StFRPVL8Q2lW6OVVM36aL2Euo5D5OkSLaCQC3WTwdwSDg=='); },
+            success: function (response) {
+                console.log(response);
+                $(".display-4").text(response);
+            }
+        });
+    })
+
+</script>
+<div class="text-center">
+    <h1 class="display-4"></h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>

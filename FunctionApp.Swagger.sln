@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionApp.Swagger", "FunctionApp.Swagger\FunctionApp.Swagger.csproj", "{1A37D422-D9AC-4EB6-BC1A-F04FC1475FAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{131AF6EE-EA83-42B4-9B57-36A879F63A3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A37D422-D9AC-4EB6-BC1A-F04FC1475FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A37D422-D9AC-4EB6-BC1A-F04FC1475FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A37D422-D9AC-4EB6-BC1A-F04FC1475FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A37D422-D9AC-4EB6-BC1A-F04FC1475FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{131AF6EE-EA83-42B4-9B57-36A879F63A3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{131AF6EE-EA83-42B4-9B57-36A879F63A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{131AF6EE-EA83-42B4-9B57-36A879F63A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{131AF6EE-EA83-42B4-9B57-36A879F63A3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D896A52F-B54F-444B-B119-4D5FB8A2A4C9}
+	EndGlobalSection
+EndGlobal
